@@ -14,4 +14,4 @@ for i in p: # Taking elements of p
     if t > count: # And the value of t(i.e also count) will be compared with count.. 
         count = t # if above condition satisfies then this will run and count will be assigned as 't' and it will have the latest value of count
         out = i # Here the element whose count is more will be taken. 
-print(out)
+print(out) # Highest count element will be displayed here
