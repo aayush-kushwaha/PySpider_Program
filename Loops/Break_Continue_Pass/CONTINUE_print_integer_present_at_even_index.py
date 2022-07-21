@@ -18,7 +18,7 @@ for i in range(len(k)): # Taking range from 0 to len(k)
         continue # Continue is a keyword which is used to skip the current execution and make the control to go for next next iteration
     else:
         out += [k[i]] # k[i] means we are taking index of loop. And concatenating the element if the above condition satisfies in out variable
-print(out)
+print(out) # Printing out
 '''
 
 
