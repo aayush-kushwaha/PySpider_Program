@@ -1,6 +1,7 @@
 '''
 Define a function to extract all the special characters in the given string
 '''
+# Type-01 Function(Function with args and without return)
 def special_char_extractor():
     a = input("Enter Character/String: ")
     out = ''
@@ -8,4 +9,4 @@ def special_char_extractor():
         if not("A" <= i <= "Z" or "a" <= i <= "z" or "0" <= i <= "9"):
             out += i
     print(out)
-special_char_extractor() 
+special_char_extractor()
